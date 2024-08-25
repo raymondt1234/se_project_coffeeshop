@@ -7,7 +7,7 @@
     opacity: 0.6;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
     transform: scale(1.15, 1.15);
   }
 }
@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  position: relative;
 }
 
 .about__title {
@@ -51,7 +52,7 @@
 
 .about__circle {
   position: absolute;
-  /* top: -152px; */
+  top: -152px;
   left: -129px;
   background-color: #1878dc;
   border-radius: 50%;
